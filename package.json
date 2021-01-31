@@ -1,0 +1,31 @@
+{
+  "name": "ejemplo-mqtt-client",
+  "version": "1.0.0",
+  "description": "Ejemplo de conección a servidor mqtt en node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=local babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomikOS/ejemplo-mqtt-client.git"
+  },
+  "author": "Igor Parra B.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NomikOS/ejemplo-mqtt-client/issues"
+  },
+  "homepage": "https://github.com/NomikOS/ejemplo-mqtt-client#readme",
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "yenv": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.19.0"
+  }
+}
